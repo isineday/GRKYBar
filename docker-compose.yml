@@ -1,3 +1,5 @@
 services:
-  telbot:
+  GRKYBarBot:
+    container_name: GRKY-Bar-Bot # Container name
     image: dockerbot:latest
+    restart: unless-stopped
