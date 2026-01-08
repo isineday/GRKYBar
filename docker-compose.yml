@@ -1,5 +1,5 @@
 services:
   GRKYBarBot:
     container_name: GRKY-Bar-Bot # Container name
-    image: timesheet:latest
+    image: isineday/grkybar:latest
     restart: unless-stopped
