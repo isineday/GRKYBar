@@ -1,5 +1,5 @@
 services:
   GRKYBarBot:
     container_name: GRKY-Bar-Bot # Container name
-    image: dockerbot:latest
+    image: Timesheet:latest
     restart: unless-stopped
